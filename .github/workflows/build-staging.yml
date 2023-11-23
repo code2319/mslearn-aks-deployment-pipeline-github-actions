@@ -40,8 +40,8 @@ jobs:
         with:
           # Here we add a list of parameters
           context: .
-            tags: ${{secrets.ACR_NAME}}/contoso-website:latest
-            push: true
+          tags: ${{secrets.ACR_NAME}}/contoso-website:latest
+          push: true
           
       # Runs a single command using the runners shell
       - name: Run a one-line script
